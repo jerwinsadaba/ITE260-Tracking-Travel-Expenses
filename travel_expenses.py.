@@ -1,0 +1,11 @@
+print("TRACKING TRAVEL EXPENSES")
+
+destination = input("Enter destination: ")
+transport = float(input("Transportation expense: ₱"))
+food = float(input("Food expense: ₱"))
+hotel = float(input("Hotel expense: ₱"))
+
+total = transport + food + hotel
+
+print("Destination:", destination)
+print("Total expenses: ₱", total
