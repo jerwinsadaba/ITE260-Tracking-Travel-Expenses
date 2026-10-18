@@ -7,5 +7,10 @@ hotel = float(input("Hotel expense: ₱"))
 
 total = transport + food + hotel
 
+print("\n========== EXPENSE SUMMARY ==========")
 print("Destination:", destination)
-print("Total expenses: ₱", total
+print(f"Transportation: ₱{transport:.2f}")
+print(f"Food: ₱{food:.2f}")
+print(f"Hotel: ₱{hotel:.2f}")
+print("-------------------------------------")
+print(f"Total expenses: ₱{total:.2f}")
